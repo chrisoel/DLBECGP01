@@ -1,0 +1,39 @@
+{
+    "dokumentenkopf": {
+        "autor": "Christopher Oelschläger",
+        "erstelldatum": "29.03.2026",
+        "aenderungshistorie": [
+            {
+                "version": "1.0",
+                "beschreibung": "Initiale Version"
+            }
+        ]
+    },
+    "begriffe": [
+        {
+            "name": "Äquivalenzklassenbildung",
+            "link": "begriffe/aequivalenzklassenbildung.html",
+            "beschreibung": "Testtechnik zur Reduktion von Testfällen durch Gruppierung ähnlicher Eingaben."
+        },
+        {
+            "name": "Testabdeckung",
+            "link": "begriffe/testabdeckung.html",
+            "beschreibung": "Maß dafür, wie gut Testfälle die definierten Bedingungen abdecken."
+        },
+        {
+            "name": "Testbasis",
+            "link": "begriffe/testbasis.html",
+            "beschreibung": "Dokumente und Informationen, aus denen Testbedingungen abgeleitet werden."
+        },
+        {
+            "name": "Testbedingung",
+            "link": "begriffe/testbedingung.html",
+            "beschreibung": "Ein prüfbares Element, das durch Testfälle validiert wird."
+        },
+        {
+            "name": "Testfall",
+            "link": "begriffe/testfall.html",
+            "beschreibung": "Beschreibung konkreter Eingaben, Aktionen und erwarteter Ergebnisse zur Überprüfung."
+        }
+    ]
+}

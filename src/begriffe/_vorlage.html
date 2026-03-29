@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Autor: Christopher Oelschläger
+Erstelldatum: 29.03.2026
+Änderungshistorie:
+- Version 1.0: Initiale Version
+-->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Anpassen: Begriff im Seitentitel einsetzen -->
+    <title>Neuer Begriff – Glossar</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+    <div id="site-topbar" data-base="../"></div>
+
+    <!-- Anpassbarer Bereich: Seitentitel, Hauptüberschrift und Seiteninhalt -->
+    <div class="page-header">
+        <div class="title-group">
+            <a class="back-link" href="../index.html" data-back-link aria-label="Zur vorherigen Seite">&#8592;</a>
+            <a class="home-link" href="../index.html" aria-label="Zur Startseite">&#8962;</a>
+            <h1>Neuer Begriff</h1>
+        </div>
+    </div>
+
+    <h2>Definition</h2>
+    <p class="highlight">
+        Hier steht die Definition des neuen Begriffs. Ein Verweis auf einen anderen
+        Glossarbegriff kann direkt im Text gesetzt werden, zum Beispiel
+        <a href="testfall.html">Testfall</a>.
+    </p>
+
+    <!-- Zusätzliche Inhalte wie Hinweise oder Quellen können darunter ergänzt werden -->
+    <h2>Weitere Informationen</h2>
+    <p>
+        Quelle oder weiterführende Informationen hier ergänzen.
+    </p>
+    <!-- Ende anpassbarer Bereich -->
+
+    <footer id="site-footer" data-base="../"></footer>
+
+    <script src="../js/begriffeDaten.js"></script>
+    <script src="../js/logo.js"></script>
+    <script src="../js/vorlesen.js"></script>
+    <script src="../js/suche.js"></script>
+    <script src="../js/zurueckLink.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/letzteSpeicherung.js"></script>
+</body>
+</html>

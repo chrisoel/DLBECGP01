@@ -1,0 +1,19 @@
+# Autor: Christopher Oelschläger
+# Erstelldatum: 29.03.2026
+# Änderungshistorie:
+# - Version 1.0: Initiale Version
+
+# Betriebssystem
+.DS_Store
+
+# Python
+.venv/
+
+# Logs und Umgebungsdateien
+*.log
+.env
+.env.*
+
+# IDEs
+.idea/
+.vscode/
